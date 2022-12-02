@@ -1,0 +1,94 @@
+/* Sfondo */
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box-container {
+  padding: 50px;
+  width: 65%;
+  margin: 2% auto 0 auto;
+  border-radius: 20px;
+  background-color: rgba(30, 30, 30, 0.5);
+}
+/* Fine sfondo */
+
+/* Logo e bottoni */
+.box-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+ .logo {
+  width: 190px;
+  height: 90px;
+ }
+
+.box-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #00ff00;
+}
+
+ .box-title > h2 {
+  color: #00ff00;
+  margin: 5px 0 5px 0;
+ }
+
+.box-button {
+  background-color: #00ff00;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.box-button > div {
+  margin: 0 auto;
+  width: 35%;
+}
+
+.button-group {
+  margin: auto;
+}
+/* Fine logo e bottoni */
+
+/* Lista prodotti */
+.product-input {
+  margin-top: 20px;
+}
+
+.product-input > span {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-input > p {
+  color: white;
+  margin: 5px 0 0 0;
+}
+
+.item {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.item-1 {
+  background-color: orange;
+  width: 290px;
+}
+
+.item-2 {
+  background-color: #00ff00;
+  width: 500px;
+}
+
+.item-3 {
+  background-color: red;
+  width: 100px;
+}
+
+/* Fine liste prodotti */
